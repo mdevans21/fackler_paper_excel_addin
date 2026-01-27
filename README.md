@@ -154,6 +154,37 @@ Unconstrained Lomax mixture.
 | `FACKLER.VERSION()` | Add-in version |
 | `FACKLER.HELP()` | Help text |
 
+## Project Structure
+
+```
+fackler_paper_excel_addin/
+├── dist/                           # Distribution files (ready to use)
+│   ├── FacklerDistributions.xll    # Excel add-in (32-bit)
+│   ├── FacklerDistributions64.xll  # Excel add-in (64-bit)
+│   └── FacklerDistributions_Demo.xlsx
+│
+├── excel-addin/                    # C# source code
+│   ├── Distributions.cs            # Core distribution implementations
+│   ├── ExcelFunctions.cs           # Excel UDF wrappers
+│   ├── FacklerDistributions.csproj # Project file
+│   ├── FacklerDistributions.dna    # Excel-DNA configuration
+│   └── build.ps1                   # Build script
+│
+├── output/                         # Distribution visualizations (PNG)
+│
+├── docs/                           # Documentation
+│   └── fackler_distributions_summary.md
+│
+├── reference/                      # Reference materials
+│   └── Fackler_Paper_Hague2013.pdf # Original paper
+│
+├── fackler_distributions.py        # Python reference implementation
+├── test_fackler_distributions.py   # Python tests
+├── create_excel_demo.py            # Script to generate demo workbook
+├── requirements.txt                # Python dependencies
+└── agents.md                       # AI agent development notes
+```
+
 ## Building from Source
 
 Requirements:
