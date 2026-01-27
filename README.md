@@ -2,6 +2,45 @@
 
 An Excel add-in implementing the heavy-tailed probability distributions from Fackler (2013) "Reinventing Pareto: Fits for Both Small and Large Losses".
 
+## Distribution Visualizations
+
+### Pareto Family Comparison
+![Pareto Family Comparison](output/00_comparison_pareto_family.png)
+
+### Core Distributions
+
+| Pareto Type I | GPD | Lomax |
+|:---:|:---:|:---:|
+| ![Pareto](output/01_pareto.png) | ![GPD](output/02_gpd.png) | ![Lomax](output/03_lomax.png) |
+
+### Burr Distribution
+
+| Bell-shaped | Decreasing |
+|:---:|:---:|
+| ![Burr Bell](output/04_burr_bellshaped.png) | ![Burr Decreasing](output/04b_burr_decreasing.png) |
+
+### Spliced Distributions
+
+| Lognormal-Pareto | Lognormal-GPD |
+|:---:|:---:|
+| ![LN-Pareto](output/05_lognormal_pareto.png) | ![LN-GPD](output/06_lognormal_gpd.png) |
+
+| Weibull-Pareto | Exponential-Pareto | Power-Pareto |
+|:---:|:---:|:---:|
+| ![Weibull-Pareto](output/07_weibull_pareto.png) | ![Exp-Pareto](output/08_exponential_pareto.png) | ![Power-Pareto](output/09_power_pareto.png) |
+
+### Mixture Distributions
+
+| Four-Parameter Pareto | Five-Parameter Pareto |
+|:---:|:---:|
+| ![4-Param](output/10_four_parameter_pareto.png) | ![5-Param](output/11_five_parameter_pareto.png) |
+
+### Additional
+
+| Right-Truncated Pareto | Spliced Comparison |
+|:---:|:---:|
+| ![Truncated](output/12_right_truncated_pareto.png) | ![Spliced Comparison](output/13_comparison_spliced.png) |
+
 ## Installation
 
 1. Download the appropriate XLL file from the `dist` folder:

@@ -19,6 +19,7 @@ Thumbs.db
 *.tmp
 *.log
 
-# Screenshots/debug images
+# Screenshots/debug images (but allow output folder)
 *.png
+!output/*.png
 __pycache__/
