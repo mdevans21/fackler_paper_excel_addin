@@ -507,7 +507,7 @@ def test_four_parameter_pareto():
             "Klugman et al. (2008), 'Loss models'",
         ],
         filename="10_four_parameter_pareto.png",
-        log_scale_x=True,
+        log_scale_x=False,
     )
 
 
@@ -532,7 +532,7 @@ def test_five_parameter_pareto():
             "Fackler (2013), Section 4",
         ],
         filename="11_five_parameter_pareto.png",
-        log_scale_x=True,
+        log_scale_x=False,
     )
 
 
