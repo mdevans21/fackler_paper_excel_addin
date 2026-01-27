@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DnaLibrary Name="Fackler Distributions" RuntimeVersion="v4.0" Language="CS">
+  <ExternalLibrary Path="FacklerDistributions.dll" ExplicitExports="false" LoadFromBytes="true" Pack="true" />
+</DnaLibrary>

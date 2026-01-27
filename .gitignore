@@ -1,0 +1,24 @@
+# Build outputs
+excel-addin/bin/
+excel-addin/obj/
+
+# Python virtual environment
+.venv/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Screenshots/debug images
+*.png
+__pycache__/

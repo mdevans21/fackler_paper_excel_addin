@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ExcelDnaPackCompressResources>false</ExcelDnaPackCompressResources>
+    <ExcelDnaAllowPackageReferenceResolution>true</ExcelDnaAllowPackageReferenceResolution>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExcelDna.AddIn" Version="1.7.0" />
+  </ItemGroup>
+
+</Project>
