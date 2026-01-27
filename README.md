@@ -2,6 +2,10 @@
 
 An Excel add-in implementing the heavy-tailed probability distributions from Fackler (2013) "Reinventing Pareto: Fits for Both Small and Large Losses".
 
+Corroborating python functions are also included in the project.
+
+This project is in beta. Code was produced using AI coding tools and is offered without any warranty. Please report any bugs.
+
 ## Distribution Visualizations
 
 ### Pareto Family Comparison
