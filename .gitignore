@@ -1,3 +1,7 @@
+# Environment and secrets
+.env
+.env.*
+
 # Build outputs
 excel-addin/bin/
 excel-addin/obj/
